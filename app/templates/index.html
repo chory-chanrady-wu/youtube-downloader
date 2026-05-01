@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>{{ app_name }}</title>
+  <link rel="stylesheet" href="/static/styles.css" />
+</head>
+<body>
+  <main class="container">
+    <section class="card">
+      <h1>{{ app_name }}</h1>
+      <p class="subtitle">Paste a YouTube link, choose a format, and download it as a temporary streamed file.</p>
+
+      <div class="form-grid">
+        <label>
+          <span>YouTube URL</span>
+          <input id="urlInput" type="url" placeholder="https://www.youtube.com/watch?v=..." autocomplete="off" />
+        </label>
+
+        <label>
+          <span>Format</span>
+          <select id="formatSelect">
+            {% for item in format_options %}
+            <option value="{{ item }}">{{ item|upper }}</option>
+            {% endfor %}
+          </select>
+        </label>
+
+        <label>
+          <span>Quality</span>
+          <select id="qualitySelect">
+            {% for item in quality_options %}
+            <option value="{{ item }}">{{ item }}</option>
+            {% endfor %}
+          </select>
+        </label>
+      </div>
+
+      <div class="actions">
+        <button id="checkButton" type="button">Check formats</button>
+        <button id="downloadButton" type="button">Download</button>
+      </div>
+
+      <div id="loadingIndicator" class="loading hidden">Working...</div>
+      <div class="progress-wrap">
+        <div id="progressBar" class="progress-bar"></div>
+      </div>
+      <div id="statusText" class="status">Ready.</div>
+      <div id="formatInfo" class="format-info"></div>
+      <a id="downloadLink" class="download-link hidden" href="#" download>Download file</a>
+    </section>
+  </main>
+
+  <script src="/static/app.js"></script>
+</body>
+</html>
+
