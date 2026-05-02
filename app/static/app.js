@@ -11,6 +11,8 @@ const downloadLink = document.getElementById('downloadLink');
 
 let activeJobId = null;
 let progressTimer = null;
+let activeFileHandle = null;
+let lastKnownTitle = 'video';
 
 function setLoading(isLoading) {
   loadingIndicator.classList.toggle('hidden', !isLoading);
@@ -37,10 +39,45 @@ function hideDownloadLink() {
   downloadLink.removeAttribute('href');
 }
 
+function buildSuggestedFileName() {
+  const extension = formatSelect.value === 'audio' ? 'mp3' : 'mp4';
+  return `${lastKnownTitle}.${extension}`;
+}
+
+async function promptForSaveLocation() {
+  if (!window.showSaveFilePicker) {
+    return null;
+  }
+
+  const isAudio = formatSelect.value === 'audio';
+  return window.showSaveFilePicker({
+    suggestedName: buildSuggestedFileName(),
+    types: [
+      {
+        description: isAudio ? 'MP3 audio file' : 'MP4 video file',
+        accept: {
+          [isAudio ? 'audio/mpeg' : 'video/mp4']: [isAudio ? '.mp3' : '.mp4'],
+        },
+      },
+    ],
+  });
+}
+
+async function saveResponseToHandle(response, handle) {
+  const blob = await response.blob();
+  const writable = await handle.createWritable();
+  try {
+    await writable.write(blob);
+  } finally {
+    await writable.close();
+  }
+}
+
 function resetResult() {
   setProgress(0);
   hideDownloadLink();
   activeJobId = null;
+  activeFileHandle = null;
   if (progressTimer) {
     clearInterval(progressTimer);
     progressTimer = null;
@@ -69,6 +106,7 @@ async function fetchFormats() {
       throw new Error(data.detail || 'Could not load formats');
     }
 
+    lastKnownTitle = data.title || 'video';
     formatInfo.textContent = `Title: ${data.title} | Available quality: ${data.available_qualities.join(', ')} | Audio: ${data.audio_available ? 'yes' : 'no'}`;
     if (data.available_qualities.length) {
       const current = qualitySelect.value;
@@ -98,9 +136,27 @@ async function pollProgress(jobId) {
   if (data.status === 'ready' && data.file_name) {
     clearInterval(progressTimer);
     progressTimer = null;
-    setStatus('Download ready.');
-    showDownloadLink(`/api/download/${jobId}/file`);
     setProgress(100);
+
+    const downloadUrl = `/api/download/${jobId}/file`;
+    if (activeFileHandle && window.showSaveFilePicker) {
+      try {
+        const downloadResponse = await fetch(downloadUrl);
+        if (!downloadResponse.ok) {
+          const errorData = await downloadResponse.json().catch(() => ({}));
+          throw new Error(errorData.detail || 'Could not fetch the file');
+        }
+        await saveResponseToHandle(downloadResponse, activeFileHandle);
+        setStatus(`Saved as ${data.file_name}.`);
+      } catch (error) {
+        setStatus(error.message || 'Download ready, but saving failed.', true);
+        showDownloadLink(downloadUrl);
+      }
+    } else {
+      setStatus('Download ready.');
+      showDownloadLink(downloadUrl);
+      downloadLink.click();
+    }
   }
 
   if (data.status === 'failed') {
@@ -118,6 +174,19 @@ async function startDownload() {
   }
 
   resetResult();
+
+  try {
+    activeFileHandle = await promptForSaveLocation();
+  } catch (error) {
+    if (error && error.name === 'AbortError') {
+      setStatus('Save canceled.', true);
+    } else {
+      setStatus(error.message || 'Could not open the save dialog.', true);
+    }
+    setLoading(false);
+    return;
+  }
+
   setLoading(true);
   setStatus('Starting download...');
 
@@ -158,4 +227,3 @@ urlInput.addEventListener('blur', () => {
     fetchFormats().catch(() => {});
   }
 });
-

@@ -56,7 +56,12 @@ async def start_download(
     _=Depends(rate_limit_dep),
 ):
     try:
-        job = await service.queue_download(payload.url, format_type=payload.format_type, quality=payload.quality)
+        job = await service.queue_download(
+            payload.url,
+            format_type=payload.format_type,
+            quality=payload.quality,
+            output_dir=payload.output_dir,
+        )
     except HTTPException:
         raise
     except DownloadRateLimitedError as exc:

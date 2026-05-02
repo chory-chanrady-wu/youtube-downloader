@@ -5,6 +5,10 @@ from pathlib import Path
 import os
 
 
+def _default_download_dir() -> Path:
+    return Path(os.getenv("USERPROFILE", str(Path.home()))) / "Downloads" / "youtube_downloads"
+
+
 @dataclass(slots=True)
 class Settings:
     app_name: str = "YouTube Downloader"
@@ -12,7 +16,7 @@ class Settings:
     rate_limit_requests: int = 5
     rate_limit_window_seconds: int = 60
     progress_ttl_seconds: int = 60 * 60
-    temp_dir: Path = field(default_factory=lambda: Path(os.getenv("YT_DOWNLOAD_TEMP_DIR", Path.cwd() / "tmp_downloads")))
+    temp_dir: Path = field(default_factory=lambda: Path(os.getenv("YT_DOWNLOAD_TEMP_DIR", str(_default_download_dir()))))
     cookies_file: Path | None = None
     allowed_hosts: tuple[str, ...] = (
         "youtube.com",
@@ -35,7 +39,7 @@ def get_settings() -> Settings:
         rate_limit_requests=int(os.getenv("RATE_LIMIT_REQUESTS", "5")),
         rate_limit_window_seconds=int(os.getenv("RATE_LIMIT_WINDOW_SECONDS", "60")),
         progress_ttl_seconds=int(os.getenv("PROGRESS_TTL_SECONDS", str(60 * 60))),
-        temp_dir=Path(os.getenv("YT_DOWNLOAD_TEMP_DIR", str(Path.cwd() / "tmp_downloads"))),
+        temp_dir=Path(os.getenv("YT_DOWNLOAD_TEMP_DIR", str(_default_download_dir()))),
         cookies_file=Path(cookies_file) if cookies_file else None,
     )
 

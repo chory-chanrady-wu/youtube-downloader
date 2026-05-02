@@ -1,4 +1,3 @@
-from pathlib import Path
 
 from fastapi.testclient import TestClient
 
@@ -7,6 +6,9 @@ from app.services.downloader import DownloadAccessRestrictedError, DownloadRateL
 
 
 class FakeService:
+    def __init__(self):
+        self.last_output_dir = None
+
     def fetch_formats(self, url: str):
         return {
             "title": "Sample video",
@@ -16,7 +18,8 @@ class FakeService:
             "duration": 123,
         }
 
-    async def queue_download(self, url: str, *, format_type: str, quality: str):
+    async def queue_download(self, url: str, *, format_type: str, quality: str, output_dir: str | None = None):
+        self.last_output_dir = output_dir
         job = app.state.progress_store.create_job(url=url, format_type=format_type, quality=quality)
         temp_file = app.state.settings.temp_dir / f"{job.job_id}.mp4"
         temp_file.parent.mkdir(parents=True, exist_ok=True)
@@ -76,14 +79,22 @@ def test_formats_endpoint_rate_limited(monkeypatch):
 
 
 def test_download_and_stream_endpoint(monkeypatch):
-    monkeypatch.setattr(app.state, "download_service", FakeService())
+    fake_service = FakeService()
+    monkeypatch.setattr(app.state, "download_service", fake_service)
+    output_dir = str(app.state.settings.temp_dir / "outside-project")
     response = client.post(
         "/api/download",
-        json={"url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ", "format_type": "video", "quality": "720p"},
+        json={
+            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "format_type": "video",
+            "quality": "720p",
+            "output_dir": output_dir,
+        },
     )
     assert response.status_code == 200
     payload = response.json()
     assert payload["status"] == "ready"
+    assert fake_service.last_output_dir == output_dir
 
     file_response = client.get(payload["download_url"])
     assert file_response.status_code == 200

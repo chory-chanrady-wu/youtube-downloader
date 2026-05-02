@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import asyncio
+import unicodedata
 import re
 from pathlib import Path
 from typing import Any
@@ -91,8 +92,54 @@ class DownloadService:
         return int(quality.rstrip("p"))
 
     def _sanitize_filename(self, name: str, default: str = "video") -> str:
-        cleaned = re.sub(r'[\\/:*?"<>|]+', "_", name).strip(" ._")
-        return cleaned or default
+        normalized = unicodedata.normalize("NFKC", name).strip()
+        cleaned = re.sub(r'[\\/:*?"<>|]+', " ", normalized)
+        cleaned = re.sub(r"\s+", " ", cleaned).strip(" ._")
+        if not cleaned:
+            cleaned = default
+        reserved_names = {
+            "CON",
+            "PRN",
+            "AUX",
+            "NUL",
+            "COM1",
+            "COM2",
+            "COM3",
+            "COM4",
+            "COM5",
+            "COM6",
+            "COM7",
+            "COM8",
+            "COM9",
+            "LPT1",
+            "LPT2",
+            "LPT3",
+            "LPT4",
+            "LPT5",
+            "LPT6",
+            "LPT7",
+            "LPT8",
+            "LPT9",
+        }
+        if cleaned.upper() in reserved_names:
+            cleaned = f"_{cleaned}"
+        return cleaned[:180] or default
+
+    def _resolve_output_dir(self, output_dir: str | None) -> Path:
+        if not output_dir:
+            return self.settings.temp_dir
+
+        resolved = Path(output_dir).expanduser()
+        if not resolved.is_absolute():
+            resolved = (Path.cwd() / resolved).resolve()
+        else:
+            resolved = resolved.resolve()
+
+        if resolved.exists() and not resolved.is_dir():
+            raise DownloadServiceError(f"Output location is not a folder: {resolved}", status_code=400)
+
+        resolved.mkdir(parents=True, exist_ok=True)
+        return resolved
 
     def _pick_stream(self, info: dict[str, Any], *, format_type: str, quality: str) -> tuple[int | None, int | None]:
         formats = info.get("formats", []) or []
@@ -198,26 +245,27 @@ class DownloadService:
             "duration": info.get("duration"),
         }
 
-    async def queue_download(self, raw_url: str, *, format_type: str, quality: str) -> dict[str, Any]:
+    async def queue_download(self, raw_url: str, *, format_type: str, quality: str, output_dir: str | None = None) -> dict[str, Any]:
         url = validate_youtube_url(raw_url, self.settings.allowed_hosts)
         job = self.progress.create_job(url=url, format_type=format_type, quality=quality)
-        asyncio.create_task(self._download_worker(job.job_id, url, format_type, quality))
+        asyncio.create_task(self._download_worker(job.job_id, url, format_type, quality, output_dir))
         return self.progress.to_dict(job.job_id) or {}
 
-    async def _download_worker(self, job_id: str, url: str, format_type: str, quality: str) -> None:
+    async def _download_worker(self, job_id: str, url: str, format_type: str, quality: str, output_dir: str | None = None) -> None:
         try:
-            await asyncio.to_thread(self._download_sync, job_id, url, format_type, quality)
+            await asyncio.to_thread(self._download_sync, job_id, url, format_type, quality, output_dir)
         except DownloadTooLargeError as exc:
             self.progress.fail(job_id, str(exc))
         except Exception as exc:  # pragma: no cover - runtime safety
             self.progress.fail(job_id, str(exc))
 
-    def _download_sync(self, job_id: str, url: str, format_type: str, quality: str) -> None:
+    def _download_sync(self, job_id: str, url: str, format_type: str, quality: str, output_dir: str | None = None) -> None:
         YoutubeDL, DownloadError = self._load_yt_dlp()
         format_selector, postprocessors = self._build_format_selector(format_type, quality)
+        target_dir = self._resolve_output_dir(output_dir)
         opts = {
             **self._yt_dlp_base_options(),
-            "outtmpl": str(self.settings.temp_dir / f"{job_id}.%(ext)s"),
+            "outtmpl": str(target_dir / f"{job_id}.%(ext)s"),
             "restrictfilenames": True,
             "noplaylist": True,
             "progress_hooks": [self._progress_hook(job_id)],
@@ -238,10 +286,19 @@ class DownloadService:
             except Exception as exc:
                 raise self._friendly_yt_dlp_error(exc) from exc
 
-        title = self._sanitize_filename(info.get("title") or "video")
-        final_path = self._find_output_file(job_id)
+        original_title = str(info.get("title") or "video")
+        title = self._sanitize_filename(original_title)
+        final_path = self._find_output_file(job_id, target_dir)
         if final_path is None or not final_path.exists():
             raise RuntimeError("The downloader could not produce an output file.")
+
+        download_name = self._build_download_name(title, format_type)
+        target_path = self._unique_download_path(download_name, target_dir)
+        if final_path != target_path:
+            if target_path.exists():
+                target_path.unlink()
+            final_path.replace(target_path)
+            final_path = target_path
 
         size_bytes = final_path.stat().st_size
         if size_bytes > self.settings.max_file_size_bytes:
@@ -250,17 +307,16 @@ class DownloadService:
                 f"Downloaded file exceeds the maximum allowed size of {self.settings.max_file_size_mb} MB."
             )
 
-        download_name = self._build_download_name(title, format_type)
         self.progress.complete(
             job_id,
-            title=title,
+            title=original_title,
             file_name=download_name,
             file_path=str(final_path),
             size_bytes=size_bytes,
         )
 
-    def _find_output_file(self, job_id: str) -> Path | None:
-        candidates = [p for p in self.settings.temp_dir.glob(f"{job_id}.*") if not p.name.endswith(".part")]
+    def _find_output_file(self, job_id: str, output_dir: Path) -> Path | None:
+        candidates = [p for p in output_dir.glob(f"{job_id}.*") if not p.name.endswith(".part")]
         if not candidates:
             return None
         candidates.sort(key=lambda p: p.stat().st_mtime, reverse=True)
@@ -269,5 +325,19 @@ class DownloadService:
     def _build_download_name(self, title: str, format_type: str) -> str:
         extension = "mp3" if format_type == "audio" else "mp4"
         return f"{title}.{extension}"
+
+    def _unique_download_path(self, file_name: str, output_dir: Path) -> Path:
+        candidate = output_dir / file_name
+        if not candidate.exists():
+            return candidate
+
+        stem = candidate.stem
+        suffix = candidate.suffix
+        for index in range(1, 1000):
+            next_candidate = output_dir / f"{stem} ({index}){suffix}"
+            if not next_candidate.exists():
+                return next_candidate
+
+        raise RuntimeError("Unable to create a unique output filename.")
 
 

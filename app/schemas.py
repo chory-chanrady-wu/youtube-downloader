@@ -11,6 +11,7 @@ class DownloadRequest(BaseModel):
     url: str = Field(..., description="YouTube video URL")
     format_type: str = Field(pattern="^(video|audio)$")
     quality: str = Field(pattern="^(144p|360p|720p|1080p)$")
+    output_dir: str | None = Field(default=None, description="Optional folder where the downloaded file should be saved")
 
 
 class DownloadStartResponse(BaseModel):

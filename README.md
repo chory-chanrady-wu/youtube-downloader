@@ -104,7 +104,7 @@ http://127.0.0.1:8000
 - `RATE_LIMIT_REQUESTS` — max requests per IP per window (default `5`)
 - `RATE_LIMIT_WINDOW_SECONDS` — rate-limit window in seconds (default `60`)
 - `PROGRESS_TTL_SECONDS` — reserved for future cleanup jobs (default `3600`)
-- `YT_DOWNLOAD_TEMP_DIR` — temp directory for downloads
+- `YT_DOWNLOAD_TEMP_DIR` — temp directory for downloads (defaults to `~/Downloads/youtube_downloads`)
 - `YT_DLP_COOKIES_FILE` — optional path to a Netscape cookies file exported from your browser
 
 ### Installing ffmpeg (required)
