@@ -100,7 +100,7 @@ http://127.0.0.1:8000
 ## Environment Variables
 
 - `APP_NAME` — app title shown in the UI
-- `MAX_FILE_SIZE_MB` — maximum allowed download size in MB (default `200`)
+- `MAX_FILE_SIZE_MB` — maximum allowed download size in MB (default `10000`, i.e., 10GB)
 - `RATE_LIMIT_REQUESTS` — max requests per IP per window (default `5`)
 - `RATE_LIMIT_WINDOW_SECONDS` — rate-limit window in seconds (default `60`)
 - `PROGRESS_TTL_SECONDS` — reserved for future cleanup jobs (default `3600`)

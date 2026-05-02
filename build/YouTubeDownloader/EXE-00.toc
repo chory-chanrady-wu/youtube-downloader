@@ -1,0 +1,1065 @@
+('C:\\Users\\CHORY '
+ 'Chanrady\\Desktop\\Tools\\youtube\\dist\\YouTubeDownloader.exe',
+ True,
+ False,
+ False,
+ 'C:\\Users\\CHORY '
+ 'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\images\\icon-console.ico',
+ None,
+ False,
+ False,
+ b'<?xml version="1.0" encoding="UTF-8" standalone="yes"?>\n<assembly xmlns='
+ b'"urn:schemas-microsoft-com:asm.v1" manifestVersion="1.0">\n  <trustInfo x'
+ b'mlns="urn:schemas-microsoft-com:asm.v3">\n    <security>\n      <requested'
+ b'Privileges>\n        <requestedExecutionLevel level="asInvoker" uiAccess='
+ b'"false"/>\n      </requestedPrivileges>\n    </security>\n  </trustInfo>\n  '
+ b'<compatibility xmlns="urn:schemas-microsoft-com:compatibility.v1">\n    <'
+ b'application>\n      <supportedOS Id="{e2011457-1546-43c5-a5fe-008deee3d3f'
+ b'0}"/>\n      <supportedOS Id="{35138b9a-5d96-4fbd-8e2d-a2440225f93a}"/>\n '
+ b'     <supportedOS Id="{4a2f28e3-53b9-4441-ba9c-d69d4a4a6e38}"/>\n      <s'
+ b'upportedOS Id="{1f676c76-80e1-4239-95bb-83d0f6d0da78}"/>\n      <supporte'
+ b'dOS Id="{8e0f7a12-bfb3-4fe8-b9a5-48fd50a15a9a}"/>\n    </application>\n  <'
+ b'/compatibility>\n  <application xmlns="urn:schemas-microsoft-com:asm.v3">'
+ b'\n    <windowsSettings>\n      <longPathAware xmlns="http://schemas.micros'
+ b'oft.com/SMI/2016/WindowsSettings">true</longPathAware>\n    </windowsSett'
+ b'ings>\n  </application>\n  <dependency>\n    <dependentAssembly>\n      <ass'
+ b'emblyIdentity type="win32" name="Microsoft.Windows.Common-Controls" version='
+ b'"6.0.0.0" processorArchitecture="*" publicKeyToken="6595b64144ccf1df" langua'
+ b'ge="*"/>\n    </dependentAssembly>\n  </dependency>\n</assembly>',
+ True,
+ False,
+ None,
+ None,
+ None,
+ 'C:\\Users\\CHORY '
+ 'Chanrady\\Desktop\\Tools\\youtube\\build\\YouTubeDownloader\\YouTubeDownloader.pkg',
+ [('pyi-contents-directory _internal', '', 'OPTION'),
+  ('PYZ-00.pyz',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\build\\YouTubeDownloader\\PYZ-00.pyz',
+   'PYZ'),
+  ('struct',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\build\\YouTubeDownloader\\localpycs\\struct.pyc',
+   'PYMODULE'),
+  ('pyimod01_archive',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\build\\YouTubeDownloader\\localpycs\\pyimod01_archive.pyc',
+   'PYMODULE'),
+  ('pyimod02_importers',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\build\\YouTubeDownloader\\localpycs\\pyimod02_importers.pyc',
+   'PYMODULE'),
+  ('pyimod03_ctypes',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\build\\YouTubeDownloader\\localpycs\\pyimod03_ctypes.pyc',
+   'PYMODULE'),
+  ('pyimod04_pywin32',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\build\\YouTubeDownloader\\localpycs\\pyimod04_pywin32.pyc',
+   'PYMODULE'),
+  ('pyiboot01_bootstrap',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\PyInstaller\\loader\\pyiboot01_bootstrap.py',
+   'PYSOURCE'),
+  ('pyi_rth_pkgutil',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_pkgutil.py',
+   'PYSOURCE'),
+  ('pyi_rth_multiprocessing',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_multiprocessing.py',
+   'PYSOURCE'),
+  ('pyi_rth_inspect',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_inspect.py',
+   'PYSOURCE'),
+  ('pyi_rth_setuptools',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\PyInstaller\\hooks\\rthooks\\pyi_rth_setuptools.py',
+   'PYSOURCE'),
+  ('launcher',
+   'C:\\Users\\CHORY Chanrady\\Desktop\\Tools\\youtube\\launcher.py',
+   'PYSOURCE'),
+  ('python314.dll',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll',
+   'BINARY'),
+  ('_zstd.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_zstd.pyd',
+   'EXTENSION'),
+  ('_lzma.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_lzma.pyd',
+   'EXTENSION'),
+  ('_bz2.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_bz2.pyd',
+   'EXTENSION'),
+  ('_decimal.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_decimal.pyd',
+   'EXTENSION'),
+  ('_hashlib.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_hashlib.pyd',
+   'EXTENSION'),
+  ('select.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\select.pyd',
+   'EXTENSION'),
+  ('_socket.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_socket.pyd',
+   'EXTENSION'),
+  ('unicodedata.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\unicodedata.pyd',
+   'EXTENSION'),
+  ('_overlapped.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_overlapped.pyd',
+   'EXTENSION'),
+  ('_asyncio.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_asyncio.pyd',
+   'EXTENSION'),
+  ('_queue.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_queue.pyd',
+   'EXTENSION'),
+  ('_ctypes.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_ctypes.pyd',
+   'EXTENSION'),
+  ('_multiprocessing.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_multiprocessing.pyd',
+   'EXTENSION'),
+  ('pyexpat.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\pyexpat.pyd',
+   'EXTENSION'),
+  ('_ssl.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_ssl.pyd',
+   'EXTENSION'),
+  ('_wmi.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_wmi.pyd',
+   'EXTENSION'),
+  ('markupsafe\\_speedups.cp314-win_amd64.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\markupsafe\\_speedups.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('_uuid.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_uuid.pyd',
+   'EXTENSION'),
+  ('yaml\\_yaml.cp314-win_amd64.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\yaml\\_yaml.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('pydantic_core\\_pydantic_core.cp314-win_amd64.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\pydantic_core\\_pydantic_core.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('_zoneinfo.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_zoneinfo.pyd',
+   'EXTENSION'),
+  ('websockets\\speedups.cp314-win_amd64.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets\\speedups.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('httptools\\parser\\url_parser.cp314-win_amd64.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\httptools\\parser\\url_parser.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('httptools\\parser\\parser.cp314-win_amd64.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\httptools\\parser\\parser.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('_sqlite3.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_sqlite3.pyd',
+   'EXTENSION'),
+  ('_elementtree.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\_elementtree.pyd',
+   'EXTENSION'),
+  ('watchfiles\\_rust_notify.cp314-win_amd64.pyd',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\watchfiles\\_rust_notify.cp314-win_amd64.pyd',
+   'EXTENSION'),
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-time-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-time-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-stdio-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-stdio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-environment-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-math-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-math-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-filesystem-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-string-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('libcrypto-3.dll',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libcrypto-3.dll',
+   'BINARY'),
+  ('libffi-8.dll',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libffi-8.dll',
+   'BINARY'),
+  ('api-ms-win-crt-utility-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-utility-l1-1-0.dll',
+   'BINARY'),
+  ('libssl-3.dll',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\libssl-3.dll',
+   'BINARY'),
+  ('VCRUNTIME140_1.dll',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140_1.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-synch-l1-2-0.dll',
+   'BINARY'),
+  ('sqlite3.dll',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\DLLs\\sqlite3.dll',
+   'BINARY'),
+  ('ucrtbase.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\ucrtbase.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-1.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processthreads-l1-1-1.dll',
+   'BINARY'),
+  ('api-ms-win-core-string-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-string-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processenvironment-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processenvironment-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-sysinfo-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-handle-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-handle-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-console-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-timezone-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-timezone-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-localization-l1-2-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-localization-l1-2-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-interlocked-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-interlocked-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-namedpipe-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-rtlsupport-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-libraryloader-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('app\\static\\app.js',
+   'C:\\Users\\CHORY Chanrady\\Desktop\\Tools\\youtube\\app\\static\\app.js',
+   'DATA'),
+  ('app\\static\\styles.css',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\app\\static\\styles.css',
+   'DATA'),
+  ('app\\templates\\index.html',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\app\\templates\\index.html',
+   'DATA'),
+  ('fastapi-0.136.1.dist-info\\INSTALLER',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi-0.136.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('fastapi-0.136.1.dist-info\\METADATA',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi-0.136.1.dist-info\\METADATA',
+   'DATA'),
+  ('fastapi-0.136.1.dist-info\\RECORD',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi-0.136.1.dist-info\\RECORD',
+   'DATA'),
+  ('fastapi-0.136.1.dist-info\\REQUESTED',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi-0.136.1.dist-info\\REQUESTED',
+   'DATA'),
+  ('fastapi-0.136.1.dist-info\\WHEEL',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi-0.136.1.dist-info\\WHEEL',
+   'DATA'),
+  ('fastapi-0.136.1.dist-info\\entry_points.txt',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi-0.136.1.dist-info\\entry_points.txt',
+   'DATA'),
+  ('fastapi-0.136.1.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi-0.136.1.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('fastapi\\.agents\\skills\\fastapi\\SKILL.md',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\SKILL.md',
+   'DATA'),
+  ('fastapi\\.agents\\skills\\fastapi\\references\\dependencies.md',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\dependencies.md',
+   'DATA'),
+  ('fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\other-tools.md',
+   'DATA'),
+  ('fastapi\\.agents\\skills\\fastapi\\references\\streaming.md',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\.agents\\skills\\fastapi\\references\\streaming.md',
+   'DATA'),
+  ('fastapi\\__init__.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\__init__.py',
+   'DATA'),
+  ('fastapi\\__main__.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\__main__.py',
+   'DATA'),
+  ('fastapi\\_compat\\__init__.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\_compat\\__init__.py',
+   'DATA'),
+  ('fastapi\\_compat\\shared.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\_compat\\shared.py',
+   'DATA'),
+  ('fastapi\\_compat\\v2.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\_compat\\v2.py',
+   'DATA'),
+  ('fastapi\\applications.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\applications.py',
+   'DATA'),
+  ('fastapi\\background.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\background.py',
+   'DATA'),
+  ('fastapi\\cli.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\cli.py',
+   'DATA'),
+  ('fastapi\\concurrency.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\concurrency.py',
+   'DATA'),
+  ('fastapi\\datastructures.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\datastructures.py',
+   'DATA'),
+  ('fastapi\\dependencies\\__init__.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\dependencies\\__init__.py',
+   'DATA'),
+  ('fastapi\\dependencies\\models.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\dependencies\\models.py',
+   'DATA'),
+  ('fastapi\\dependencies\\utils.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\dependencies\\utils.py',
+   'DATA'),
+  ('fastapi\\encoders.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\encoders.py',
+   'DATA'),
+  ('fastapi\\exception_handlers.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\exception_handlers.py',
+   'DATA'),
+  ('fastapi\\exceptions.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\exceptions.py',
+   'DATA'),
+  ('fastapi\\logger.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\logger.py',
+   'DATA'),
+  ('fastapi\\middleware\\__init__.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\middleware\\__init__.py',
+   'DATA'),
+  ('fastapi\\middleware\\asyncexitstack.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\middleware\\asyncexitstack.py',
+   'DATA'),
+  ('fastapi\\middleware\\cors.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\middleware\\cors.py',
+   'DATA'),
+  ('fastapi\\middleware\\gzip.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\middleware\\gzip.py',
+   'DATA'),
+  ('fastapi\\middleware\\httpsredirect.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\middleware\\httpsredirect.py',
+   'DATA'),
+  ('fastapi\\middleware\\trustedhost.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\middleware\\trustedhost.py',
+   'DATA'),
+  ('fastapi\\middleware\\wsgi.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\middleware\\wsgi.py',
+   'DATA'),
+  ('fastapi\\openapi\\__init__.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\openapi\\__init__.py',
+   'DATA'),
+  ('fastapi\\openapi\\constants.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\openapi\\constants.py',
+   'DATA'),
+  ('fastapi\\openapi\\docs.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\openapi\\docs.py',
+   'DATA'),
+  ('fastapi\\openapi\\models.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\openapi\\models.py',
+   'DATA'),
+  ('fastapi\\openapi\\utils.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\openapi\\utils.py',
+   'DATA'),
+  ('fastapi\\param_functions.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\param_functions.py',
+   'DATA'),
+  ('fastapi\\params.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\params.py',
+   'DATA'),
+  ('fastapi\\py.typed',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\py.typed',
+   'DATA'),
+  ('fastapi\\requests.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\requests.py',
+   'DATA'),
+  ('fastapi\\responses.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\responses.py',
+   'DATA'),
+  ('fastapi\\routing.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\routing.py',
+   'DATA'),
+  ('fastapi\\security\\__init__.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\security\\__init__.py',
+   'DATA'),
+  ('fastapi\\security\\api_key.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\security\\api_key.py',
+   'DATA'),
+  ('fastapi\\security\\base.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\security\\base.py',
+   'DATA'),
+  ('fastapi\\security\\http.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\security\\http.py',
+   'DATA'),
+  ('fastapi\\security\\oauth2.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\security\\oauth2.py',
+   'DATA'),
+  ('fastapi\\security\\open_id_connect_url.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\security\\open_id_connect_url.py',
+   'DATA'),
+  ('fastapi\\security\\utils.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\security\\utils.py',
+   'DATA'),
+  ('fastapi\\sse.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\sse.py',
+   'DATA'),
+  ('fastapi\\staticfiles.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\staticfiles.py',
+   'DATA'),
+  ('fastapi\\templating.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\templating.py',
+   'DATA'),
+  ('fastapi\\testclient.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\testclient.py',
+   'DATA'),
+  ('fastapi\\types.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\types.py',
+   'DATA'),
+  ('fastapi\\utils.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\utils.py',
+   'DATA'),
+  ('fastapi\\websockets.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\fastapi\\websockets.py',
+   'DATA'),
+  ('jinja2-3.1.6.dist-info\\INSTALLER',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2-3.1.6.dist-info\\INSTALLER',
+   'DATA'),
+  ('jinja2-3.1.6.dist-info\\METADATA',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2-3.1.6.dist-info\\METADATA',
+   'DATA'),
+  ('jinja2-3.1.6.dist-info\\RECORD',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2-3.1.6.dist-info\\RECORD',
+   'DATA'),
+  ('jinja2-3.1.6.dist-info\\REQUESTED',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2-3.1.6.dist-info\\REQUESTED',
+   'DATA'),
+  ('jinja2-3.1.6.dist-info\\WHEEL',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2-3.1.6.dist-info\\WHEEL',
+   'DATA'),
+  ('jinja2-3.1.6.dist-info\\entry_points.txt',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2-3.1.6.dist-info\\entry_points.txt',
+   'DATA'),
+  ('jinja2-3.1.6.dist-info\\licenses\\LICENSE.txt',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2-3.1.6.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('jinja2\\__init__.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\__init__.py',
+   'DATA'),
+  ('jinja2\\_identifier.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\_identifier.py',
+   'DATA'),
+  ('jinja2\\async_utils.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\async_utils.py',
+   'DATA'),
+  ('jinja2\\bccache.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\bccache.py',
+   'DATA'),
+  ('jinja2\\compiler.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\compiler.py',
+   'DATA'),
+  ('jinja2\\constants.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\constants.py',
+   'DATA'),
+  ('jinja2\\debug.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\debug.py',
+   'DATA'),
+  ('jinja2\\defaults.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\defaults.py',
+   'DATA'),
+  ('jinja2\\environment.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\environment.py',
+   'DATA'),
+  ('jinja2\\exceptions.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\exceptions.py',
+   'DATA'),
+  ('jinja2\\ext.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\ext.py',
+   'DATA'),
+  ('jinja2\\filters.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\filters.py',
+   'DATA'),
+  ('jinja2\\idtracking.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\idtracking.py',
+   'DATA'),
+  ('jinja2\\lexer.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\lexer.py',
+   'DATA'),
+  ('jinja2\\loaders.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\loaders.py',
+   'DATA'),
+  ('jinja2\\meta.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\meta.py',
+   'DATA'),
+  ('jinja2\\nativetypes.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\nativetypes.py',
+   'DATA'),
+  ('jinja2\\nodes.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\nodes.py',
+   'DATA'),
+  ('jinja2\\optimizer.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\optimizer.py',
+   'DATA'),
+  ('jinja2\\parser.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\parser.py',
+   'DATA'),
+  ('jinja2\\py.typed',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\py.typed',
+   'DATA'),
+  ('jinja2\\runtime.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\runtime.py',
+   'DATA'),
+  ('jinja2\\sandbox.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\sandbox.py',
+   'DATA'),
+  ('jinja2\\tests.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\tests.py',
+   'DATA'),
+  ('jinja2\\utils.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\utils.py',
+   'DATA'),
+  ('jinja2\\visitor.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\jinja2\\visitor.py',
+   'DATA'),
+  ('starlette-1.0.0.dist-info\\INSTALLER',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette-1.0.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('starlette-1.0.0.dist-info\\METADATA',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette-1.0.0.dist-info\\METADATA',
+   'DATA'),
+  ('starlette-1.0.0.dist-info\\RECORD',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette-1.0.0.dist-info\\RECORD',
+   'DATA'),
+  ('starlette-1.0.0.dist-info\\WHEEL',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette-1.0.0.dist-info\\WHEEL',
+   'DATA'),
+  ('starlette-1.0.0.dist-info\\licenses\\LICENSE.md',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette-1.0.0.dist-info\\licenses\\LICENSE.md',
+   'DATA'),
+  ('starlette\\__init__.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\__init__.py',
+   'DATA'),
+  ('starlette\\_exception_handler.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\_exception_handler.py',
+   'DATA'),
+  ('starlette\\_utils.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\_utils.py',
+   'DATA'),
+  ('starlette\\applications.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\applications.py',
+   'DATA'),
+  ('starlette\\authentication.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\authentication.py',
+   'DATA'),
+  ('starlette\\background.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\background.py',
+   'DATA'),
+  ('starlette\\concurrency.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\concurrency.py',
+   'DATA'),
+  ('starlette\\config.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\config.py',
+   'DATA'),
+  ('starlette\\convertors.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\convertors.py',
+   'DATA'),
+  ('starlette\\datastructures.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\datastructures.py',
+   'DATA'),
+  ('starlette\\endpoints.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\endpoints.py',
+   'DATA'),
+  ('starlette\\exceptions.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\exceptions.py',
+   'DATA'),
+  ('starlette\\formparsers.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\formparsers.py',
+   'DATA'),
+  ('starlette\\middleware\\__init__.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\middleware\\__init__.py',
+   'DATA'),
+  ('starlette\\middleware\\authentication.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\middleware\\authentication.py',
+   'DATA'),
+  ('starlette\\middleware\\base.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\middleware\\base.py',
+   'DATA'),
+  ('starlette\\middleware\\cors.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\middleware\\cors.py',
+   'DATA'),
+  ('starlette\\middleware\\errors.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\middleware\\errors.py',
+   'DATA'),
+  ('starlette\\middleware\\exceptions.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\middleware\\exceptions.py',
+   'DATA'),
+  ('starlette\\middleware\\gzip.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\middleware\\gzip.py',
+   'DATA'),
+  ('starlette\\middleware\\httpsredirect.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\middleware\\httpsredirect.py',
+   'DATA'),
+  ('starlette\\middleware\\sessions.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\middleware\\sessions.py',
+   'DATA'),
+  ('starlette\\middleware\\trustedhost.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\middleware\\trustedhost.py',
+   'DATA'),
+  ('starlette\\middleware\\wsgi.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\middleware\\wsgi.py',
+   'DATA'),
+  ('starlette\\py.typed',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\py.typed',
+   'DATA'),
+  ('starlette\\requests.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\requests.py',
+   'DATA'),
+  ('starlette\\responses.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\responses.py',
+   'DATA'),
+  ('starlette\\routing.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\routing.py',
+   'DATA'),
+  ('starlette\\schemas.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\schemas.py',
+   'DATA'),
+  ('starlette\\staticfiles.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\staticfiles.py',
+   'DATA'),
+  ('starlette\\status.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\status.py',
+   'DATA'),
+  ('starlette\\templating.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\templating.py',
+   'DATA'),
+  ('starlette\\testclient.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\testclient.py',
+   'DATA'),
+  ('starlette\\types.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\types.py',
+   'DATA'),
+  ('starlette\\websockets.py',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\starlette\\websockets.py',
+   'DATA'),
+  ('certifi\\cacert.pem',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\certifi\\cacert.pem',
+   'DATA'),
+  ('certifi\\py.typed',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\certifi\\py.typed',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
+   'ipsum.txt',
+   'DATA'),
+  ('pydantic-2.13.3.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\pydantic-2.13.3.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\RECORD',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\RECORD',
+   'DATA'),
+  ('websockets-16.0.dist-info\\METADATA',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\METADATA',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\licenses\\LICENSE.txt',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\INSTALLER',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\INSTALLER',
+   'DATA'),
+  ('websockets-16.0.dist-info\\RECORD',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\RECORD',
+   'DATA'),
+  ('websockets-16.0.dist-info\\entry_points.txt',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('websockets-16.0.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('pydantic-2.13.3.dist-info\\WHEEL',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\pydantic-2.13.3.dist-info\\WHEEL',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\top_level.txt',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\top_level.txt',
+   'DATA'),
+  ('pydantic-2.13.3.dist-info\\RECORD',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\pydantic-2.13.3.dist-info\\RECORD',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\METADATA',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\METADATA',
+   'DATA'),
+  ('pydantic-2.13.3.dist-info\\INSTALLER',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\pydantic-2.13.3.dist-info\\INSTALLER',
+   'DATA'),
+  ('click-8.3.3.dist-info\\RECORD',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\click-8.3.3.dist-info\\RECORD',
+   'DATA'),
+  ('click-8.3.3.dist-info\\METADATA',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\click-8.3.3.dist-info\\METADATA',
+   'DATA'),
+  ('pydantic-2.13.3.dist-info\\METADATA',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\pydantic-2.13.3.dist-info\\METADATA',
+   'DATA'),
+  ('click-8.3.3.dist-info\\licenses\\LICENSE.txt',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\click-8.3.3.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('websockets-16.0.dist-info\\WHEEL',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\WHEEL',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\WHEEL',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\WHEEL',
+   'DATA'),
+  ('click-8.3.3.dist-info\\INSTALLER',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\click-8.3.3.dist-info\\INSTALLER',
+   'DATA'),
+  ('websockets-16.0.dist-info\\INSTALLER',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('websockets-16.0.dist-info\\top_level.txt',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\top_level.txt',
+   'DATA'),
+  ('click-8.3.3.dist-info\\WHEEL',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\click-8.3.3.dist-info\\WHEEL',
+   'DATA'),
+  ('base_library.zip',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\build\\YouTubeDownloader\\base_library.zip',
+   'DATA')],
+ [],
+ False,
+ False,
+ 1777721954,
+ [('run.exe',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\PyInstaller\\bootloader\\Windows-64bit-intel\\run.exe',
+   'EXECUTABLE')],
+ 'C:\\Users\\CHORY '
+ 'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\python314.dll')

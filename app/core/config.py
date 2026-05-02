@@ -12,7 +12,7 @@ def _default_download_dir() -> Path:
 @dataclass(slots=True)
 class Settings:
     app_name: str = "YouTube Downloader"
-    max_file_size_mb: int = 200
+    max_file_size_mb: int = 100000000000000000000
     rate_limit_requests: int = 5
     rate_limit_window_seconds: int = 60
     progress_ttl_seconds: int = 60 * 60
@@ -35,7 +35,7 @@ def get_settings() -> Settings:
     cookies_file = os.getenv("YT_DLP_COOKIES_FILE")
     return Settings(
         app_name=os.getenv("APP_NAME", "YouTube Downloader"),
-        max_file_size_mb=int(os.getenv("MAX_FILE_SIZE_MB", "200")),
+        max_file_size_mb=int(os.getenv("MAX_FILE_SIZE_MB", "10000")),
         rate_limit_requests=int(os.getenv("RATE_LIMIT_REQUESTS", "5")),
         rate_limit_window_seconds=int(os.getenv("RATE_LIMIT_WINDOW_SECONDS", "60")),
         progress_ttl_seconds=int(os.getenv("PROGRESS_TTL_SECONDS", str(60 * 60))),
