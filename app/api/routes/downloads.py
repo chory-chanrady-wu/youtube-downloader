@@ -1,7 +1,9 @@
 from __future__ import annotations
 
 import mimetypes
+import unicodedata
 from pathlib import Path
+from urllib.parse import quote
 
 from fastapi import APIRouter, Depends, HTTPException, Request, status
 from fastapi.responses import StreamingResponse
@@ -11,6 +13,20 @@ from app.schemas import DownloadRequest, DownloadStartResponse, FormatRequest, F
 from app.services.downloader import DownloadAccessRestrictedError, DownloadRateLimitedError, DownloadServiceError
 
 router = APIRouter(prefix="/api", tags=["downloads"])
+
+
+def _ascii_fallback_filename(name: str, default: str = "download") -> str:
+    normalized = unicodedata.normalize("NFKD", name)
+    ascii_name = normalized.encode("ascii", "ignore").decode("ascii")
+    ascii_name = ascii_name.replace("\\", " ").replace("/", " ")
+    ascii_name = ascii_name.replace('"', "").strip(" ._")
+    return ascii_name or default
+
+
+def _build_content_disposition(filename: str) -> str:
+    fallback = _ascii_fallback_filename(filename)
+    encoded = quote(filename, safe="")
+    return f'attachment; filename="{fallback}"; filename*=UTF-8\'\'{encoded}'
 
 
 def get_service(request: Request):
@@ -112,7 +128,8 @@ async def stream_download(job_id: str, store=Depends(get_store)):
         raise HTTPException(status_code=status.HTTP_410_GONE, detail="Downloaded file is no longer available.")
 
     media_type = mimetypes.guess_type(str(file_path))[0] or "application/octet-stream"
-    headers = {"Content-Disposition": f'attachment; filename="{job.file_name or file_path.name}"'}
+    download_name = job.file_name or file_path.name
+    headers = {"Content-Disposition": _build_content_disposition(download_name)}
 
     async def file_iterator():
         with file_path.open("rb") as handle:

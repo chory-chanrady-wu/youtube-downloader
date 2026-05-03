@@ -48,6 +48,23 @@ class RateLimitedService:
         )
 
 
+class UnicodeService:
+    async def queue_download(self, url: str, *, format_type: str, quality: str, output_dir: str | None = None):
+        job = app.state.progress_store.create_job(url=url, format_type=format_type, quality=quality)
+        temp_file = app.state.settings.temp_dir / f"{job.job_id}.mp4"
+        temp_file.parent.mkdir(parents=True, exist_ok=True)
+        temp_file.write_bytes(b"unicode-video-bytes")
+        file_name = "វីដេអូ សាកល្បង 测试.mp4"
+        app.state.progress_store.complete(
+            job.job_id,
+            title="វីដេអូ សាកល្បង 测试",
+            file_name=file_name,
+            file_path=str(temp_file),
+            size_bytes=temp_file.stat().st_size,
+        )
+        return app.state.progress_store.to_dict(job.job_id)
+
+
 client = TestClient(app)
 
 
@@ -99,4 +116,25 @@ def test_download_and_stream_endpoint(monkeypatch):
     file_response = client.get(payload["download_url"])
     assert file_response.status_code == 200
     assert file_response.content == b"video-bytes"
+
+
+def test_download_and_stream_endpoint_unicode_filename(monkeypatch):
+    monkeypatch.setattr(app.state, "download_service", UnicodeService())
+    response = client.post(
+        "/api/download",
+        json={
+            "url": "https://www.youtube.com/watch?v=dQw4w9WgXcQ",
+            "format_type": "video",
+            "quality": "720p",
+        },
+    )
+    assert response.status_code == 200
+    payload = response.json()
+    assert payload["status"] == "ready"
+
+    file_response = client.get(payload["download_url"])
+    assert file_response.status_code == 200
+    assert file_response.content == b"unicode-video-bytes"
+    assert "filename*=" in file_response.headers["content-disposition"]
+
 

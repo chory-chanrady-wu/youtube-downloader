@@ -169,9 +169,37 @@
    'C:\\Users\\CHORY '
    'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\watchfiles\\_rust_notify.cp314-win_amd64.pyd',
    'EXTENSION'),
-  ('api-ms-win-crt-runtime-l1-1-0.dll',
+  ('api-ms-win-crt-environment-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-runtime-l1-1-0.dll',
+   'Toolkit\\api-ms-win-crt-environment-l1-1-0.dll',
+   'BINARY'),
+  ('VCRUNTIME140.dll',
+   'C:\\Users\\CHORY '
+   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll',
+   'BINARY'),
+  ('api-ms-win-crt-locale-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-locale-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-convert-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-convert-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-conio-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-conio-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-heap-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-heap-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-process-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-process-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-crt-filesystem-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-crt-filesystem-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-crt-time-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
@@ -181,45 +209,17 @@
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-crt-stdio-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-environment-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-environment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-locale-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-locale-l1-1-0.dll',
-   'BINARY'),
-  ('VCRUNTIME140.dll',
-   'C:\\Users\\CHORY '
-   'Chanrady\\AppData\\Local\\Programs\\Python\\Python314\\VCRUNTIME140.dll',
-   'BINARY'),
-  ('api-ms-win-crt-heap-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-heap-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-math-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-math-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-filesystem-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-filesystem-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-crt-process-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-process-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-crt-string-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-crt-string-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-convert-l1-1-0.dll',
+  ('api-ms-win-crt-runtime-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-convert-l1-1-0.dll',
+   'Toolkit\\api-ms-win-crt-runtime-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-crt-conio-l1-1-0.dll',
+  ('api-ms-win-crt-math-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-crt-conio-l1-1-0.dll',
+   'Toolkit\\api-ms-win-crt-math-l1-1-0.dll',
    'BINARY'),
   ('libcrypto-3.dll',
    'C:\\Users\\CHORY '
@@ -253,21 +253,9 @@
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\ucrtbase.dll',
    'BINARY'),
-  ('api-ms-win-core-profile-l1-1-0.dll',
+  ('api-ms-win-core-timezone-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-profile-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-debug-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-debug-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-processthreads-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-processthreads-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-file-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-timezone-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-processthreads-l1-1-1.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
@@ -277,77 +265,89 @@
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-string-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-heap-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-heap-l1-1-0.dll',
-   'BINARY'),
   ('api-ms-win-core-processenvironment-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-processenvironment-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l1-2-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-file-l1-2-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-memory-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-memory-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-sysinfo-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-sysinfo-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-handle-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-handle-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-console-l1-1-0.dll',
+  ('api-ms-win-core-errorhandling-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-console-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-file-l2-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-file-l2-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-util-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-util-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-timezone-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-timezone-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-errorhandling-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-localization-l1-2-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-localization-l1-2-0.dll',
    'BINARY'),
-  ('api-ms-win-core-errorhandling-l1-1-0.dll',
+  ('api-ms-win-core-namedpipe-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-errorhandling-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-namedpipe-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-synch-l1-1-0.dll',
+  ('api-ms-win-core-file-l1-2-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-synch-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-file-l1-2-0.dll',
    'BINARY'),
   ('api-ms-win-core-interlocked-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-interlocked-l1-1-0.dll',
    'BINARY'),
-  ('api-ms-win-core-namedpipe-l1-1-0.dll',
+  ('api-ms-win-core-sysinfo-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-namedpipe-l1-1-0.dll',
-   'BINARY'),
-  ('api-ms-win-core-datetime-l1-1-0.dll',
-   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
-   'Toolkit\\api-ms-win-core-datetime-l1-1-0.dll',
+   'Toolkit\\api-ms-win-core-sysinfo-l1-1-0.dll',
    'BINARY'),
   ('api-ms-win-core-rtlsupport-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-rtlsupport-l1-1-0.dll',
    'BINARY'),
+  ('api-ms-win-core-heap-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-heap-l1-1-0.dll',
+   'BINARY'),
   ('api-ms-win-core-libraryloader-l1-1-0.dll',
    'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
    'Toolkit\\api-ms-win-core-libraryloader-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-debug-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-debug-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-util-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-util-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-memory-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-memory-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-file-l2-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-file-l2-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-processthreads-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-processthreads-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-datetime-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-datetime-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-profile-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-profile-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-synch-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-synch-l1-1-0.dll',
+   'BINARY'),
+  ('api-ms-win-core-console-l1-1-0.dll',
+   'C:\\Program Files (x86)\\Windows Kits\\10\\Windows Performance '
+   'Toolkit\\api-ms-win-core-console-l1-1-0.dll',
    'BINARY'),
   ('app\\static\\app.js',
    'C:\\Users\\CHORY Chanrady\\Desktop\\Tools\\youtube\\app\\static\\app.js',
@@ -900,130 +900,130 @@
    'C:\\Users\\CHORY '
    'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\certifi\\py.typed',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
    'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
    'C:\\Users\\CHORY '
    'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\METADATA',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
    'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
-   'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
-   'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\INSTALLER',
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\top_level.txt',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
    'C:\\Users\\CHORY '
    'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\WHEEL',
    'DATA'),
-  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
    'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\RECORD',
    'DATA'),
   ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
    'C:\\Users\\CHORY '
    'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\REQUESTED',
+   'DATA'),
+  ('setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\importlib_metadata-8.7.1.dist-info\\licenses\\LICENSE',
    'DATA'),
   ('setuptools\\_vendor\\jaraco\\text\\Lorem ipsum.txt',
    'C:\\Users\\CHORY '
    'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\setuptools\\_vendor\\jaraco\\text\\Lorem '
    'ipsum.txt',
    'DATA'),
-  ('pydantic-2.13.3.dist-info\\licenses\\LICENSE',
+  ('websockets-16.0.dist-info\\WHEEL',
    'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\pydantic-2.13.3.dist-info\\licenses\\LICENSE',
-   'DATA'),
-  ('markupsafe-3.0.3.dist-info\\RECORD',
-   'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\RECORD',
-   'DATA'),
-  ('websockets-16.0.dist-info\\METADATA',
-   'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\METADATA',
-   'DATA'),
-  ('markupsafe-3.0.3.dist-info\\licenses\\LICENSE.txt',
-   'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\licenses\\LICENSE.txt',
-   'DATA'),
-  ('markupsafe-3.0.3.dist-info\\INSTALLER',
-   'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\INSTALLER',
-   'DATA'),
-  ('websockets-16.0.dist-info\\RECORD',
-   'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\RECORD',
-   'DATA'),
-  ('websockets-16.0.dist-info\\entry_points.txt',
-   'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\entry_points.txt',
-   'DATA'),
-  ('websockets-16.0.dist-info\\licenses\\LICENSE',
-   'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\licenses\\LICENSE',
-   'DATA'),
-  ('pydantic-2.13.3.dist-info\\WHEEL',
-   'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\pydantic-2.13.3.dist-info\\WHEEL',
-   'DATA'),
-  ('markupsafe-3.0.3.dist-info\\top_level.txt',
-   'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\top_level.txt',
-   'DATA'),
-  ('pydantic-2.13.3.dist-info\\RECORD',
-   'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\pydantic-2.13.3.dist-info\\RECORD',
-   'DATA'),
-  ('markupsafe-3.0.3.dist-info\\METADATA',
-   'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\METADATA',
-   'DATA'),
-  ('pydantic-2.13.3.dist-info\\INSTALLER',
-   'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\pydantic-2.13.3.dist-info\\INSTALLER',
-   'DATA'),
-  ('click-8.3.3.dist-info\\RECORD',
-   'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\click-8.3.3.dist-info\\RECORD',
-   'DATA'),
-  ('click-8.3.3.dist-info\\METADATA',
-   'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\click-8.3.3.dist-info\\METADATA',
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\WHEEL',
    'DATA'),
   ('pydantic-2.13.3.dist-info\\METADATA',
    'C:\\Users\\CHORY '
    'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\pydantic-2.13.3.dist-info\\METADATA',
    'DATA'),
-  ('click-8.3.3.dist-info\\licenses\\LICENSE.txt',
+  ('click-8.3.3.dist-info\\METADATA',
    'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\click-8.3.3.dist-info\\licenses\\LICENSE.txt',
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\click-8.3.3.dist-info\\METADATA',
    'DATA'),
-  ('websockets-16.0.dist-info\\WHEEL',
+  ('markupsafe-3.0.3.dist-info\\RECORD',
    'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\WHEEL',
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\RECORD',
    'DATA'),
   ('markupsafe-3.0.3.dist-info\\WHEEL',
    'C:\\Users\\CHORY '
    'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\WHEEL',
    'DATA'),
+  ('websockets-16.0.dist-info\\METADATA',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\METADATA',
+   'DATA'),
+  ('pydantic-2.13.3.dist-info\\INSTALLER',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\pydantic-2.13.3.dist-info\\INSTALLER',
+   'DATA'),
+  ('pydantic-2.13.3.dist-info\\RECORD',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\pydantic-2.13.3.dist-info\\RECORD',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\INSTALLER',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\INSTALLER',
+   'DATA'),
+  ('pydantic-2.13.3.dist-info\\WHEEL',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\pydantic-2.13.3.dist-info\\WHEEL',
+   'DATA'),
+  ('websockets-16.0.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('websockets-16.0.dist-info\\RECORD',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\RECORD',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\top_level.txt',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\top_level.txt',
+   'DATA'),
+  ('click-8.3.3.dist-info\\RECORD',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\click-8.3.3.dist-info\\RECORD',
+   'DATA'),
   ('click-8.3.3.dist-info\\INSTALLER',
    'C:\\Users\\CHORY '
    'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\click-8.3.3.dist-info\\INSTALLER',
    'DATA'),
-  ('websockets-16.0.dist-info\\INSTALLER',
+  ('click-8.3.3.dist-info\\licenses\\LICENSE.txt',
    'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\INSTALLER',
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\click-8.3.3.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('websockets-16.0.dist-info\\entry_points.txt',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\entry_points.txt',
+   'DATA'),
+  ('pydantic-2.13.3.dist-info\\licenses\\LICENSE',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\pydantic-2.13.3.dist-info\\licenses\\LICENSE',
+   'DATA'),
+  ('click-8.3.3.dist-info\\WHEEL',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\click-8.3.3.dist-info\\WHEEL',
    'DATA'),
   ('websockets-16.0.dist-info\\top_level.txt',
    'C:\\Users\\CHORY '
    'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\top_level.txt',
    'DATA'),
-  ('click-8.3.3.dist-info\\WHEEL',
+  ('websockets-16.0.dist-info\\INSTALLER',
    'C:\\Users\\CHORY '
-   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\click-8.3.3.dist-info\\WHEEL',
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\websockets-16.0.dist-info\\INSTALLER',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\licenses\\LICENSE.txt',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\licenses\\LICENSE.txt',
+   'DATA'),
+  ('markupsafe-3.0.3.dist-info\\METADATA',
+   'C:\\Users\\CHORY '
+   'Chanrady\\Desktop\\Tools\\youtube\\.venv\\Lib\\site-packages\\markupsafe-3.0.3.dist-info\\METADATA',
    'DATA'),
   ('base_library.zip',
    'C:\\Users\\CHORY '
